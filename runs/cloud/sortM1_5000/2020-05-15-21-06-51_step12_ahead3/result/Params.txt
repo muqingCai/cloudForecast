@@ -1,0 +1,16 @@
+encoder_hidden_size=32
+testSize=720
+steps_ahead=3
+valSize=720
+dataset=sortM1_5000
+decoder_stack_layers=1
+batch_size=128
+epochs=1001
+is_cuda=False
+is_train=False
+dropout=0.5
+lr=0.005
+is_shuffle=True
+encoder_stack_layers=1
+evaluate_point=50
+time_steps=12
